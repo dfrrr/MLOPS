@@ -16,9 +16,10 @@ print("""
      -------------------------------------------------------------------------------------------------------------------------------------------------
      
 """)
-
-while(True):
-    exp = input("Enter Your Relative Experience In ML: ")
-    exp = float(exp)
-    if exp < 0 :
-        exit()
+prediction = mind.predict([[2]])
+print(prediction)
+#while(True):
+ #   exp = input("Enter Your Relative Experience In ML: ")
+  #  exp = float(exp)
+   # if exp < 0 :
+    #    exit()
