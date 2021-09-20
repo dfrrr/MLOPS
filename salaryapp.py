@@ -7,5 +7,18 @@ y = data["Salary"]
 from sklearn.linear_model import LinearRegression
 mind = LinearRegression()
 model = mind.fit(x,y)
-prediction = mind.predict([[2]])
-print(prediction)
+
+print("""
+     ------------------------------------------------------------------------------------------------------------------------------------------------
+     
+                                                  WELCOME TO THE WORLD OF PREDICTION
+                                
+     -------------------------------------------------------------------------------------------------------------------------------------------------
+     
+""")
+
+while(True):
+    exp = input("Enter Your Relative Experience In ML: ")
+    exp = float(exp)
+    if exp < 0 :
+        exit()
