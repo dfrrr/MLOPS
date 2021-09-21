@@ -17,7 +17,7 @@ print("""
      
 """)
 prediction = mind.predict([[0]])
-print("Ypour Expected Salary :" ,prediction,)
+print("Your Expected Salary :" ,prediction,)
 #while(True):
  #   exp = input("Enter Your Relative Experience In ML: ")
   #  exp = float(exp)
