@@ -16,7 +16,7 @@ print("""
      -------------------------------------------------------------------------------------------------------------------------------------------------
      
 """)
-prediction = mind.predict([[0]])
+prediction = mind.predict([[1]])
 print("Your Expected Salary :" ,prediction,)
 #while(True):
  #   exp = input("Enter Your Relative Experience In ML: ")
